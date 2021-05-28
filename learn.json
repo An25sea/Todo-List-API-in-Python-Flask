@@ -1,7 +1,7 @@
 {
     "config": {
         "port": 3000,
-        "address": "https://blush-lark-s89tfd0l.ws-us03.gitpod.io",
+        "address": "https://violet-narwhal-qt96dxcv.ws-us07.gitpod.io",
         "editor": {
             "mode": "gitpod",
             "version": "1.0.61"
@@ -14,6 +14,9 @@
         "exercisesPath": ".learn/exercises",
         "disableGrading": false,
         "actions": [
+            "build",
+            "test",
+            "reset",
             "build",
             "test",
             "reset",
@@ -122,11 +125,6 @@
                     "hidden": true
                 },
                 {
-                    "path": ".learn/exercises/02-pipenv-installation/__pycache__",
-                    "name": "__pycache__",
-                    "hidden": true
-                },
-                {
                     "path": ".learn/exercises/02-pipenv-installation/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -154,11 +152,6 @@
                 {
                     "path": ".learn/exercises/02.1-flask-installation/README.md",
                     "name": "README.md",
-                    "hidden": true
-                },
-                {
-                    "path": ".learn/exercises/02.1-flask-installation/__pycache__",
-                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -192,11 +185,6 @@
                     "hidden": true
                 },
                 {
-                    "path": ".learn/exercises/03-first-flask-app/__pycache__",
-                    "name": "__pycache__",
-                    "hidden": true
-                },
-                {
                     "path": ".learn/exercises/03-first-flask-app/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -224,11 +212,6 @@
                 {
                     "path": ".learn/exercises/03.1-app-run/README.md",
                     "name": "README.md",
-                    "hidden": true
-                },
-                {
-                    "path": ".learn/exercises/03.1-app-run/__pycache__",
-                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -287,11 +270,6 @@
                     "hidden": true
                 },
                 {
-                    "path": ".learn/exercises/03.3-your-first-route/__pycache__",
-                    "name": "__pycache__",
-                    "hidden": true
-                },
-                {
                     "path": ".learn/exercises/03.3-your-first-route/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -347,17 +325,12 @@
                     "hidden": true
                 },
                 {
-                    "path": ".learn/exercises/05-returning-json/__pycache__",
-                    "name": "__pycache__",
-                    "hidden": true
-                },
-                {
                     "path": ".learn/exercises/05-returning-json/test.py",
                     "name": "test.py",
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 10,
@@ -387,7 +360,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 11,
@@ -417,7 +390,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 12,
@@ -447,7 +420,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 13,
@@ -477,7 +450,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 14,
@@ -507,7 +480,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 15,
@@ -537,7 +510,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 16,
@@ -567,7 +540,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         }
     ]
 }
